@@ -1,0 +1,43 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    background-image: url(../assets/tamagotchi-case.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 800px; 
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#gameWindow {
+    z-index: -1;
+}
+
+#feedButton {
+    width: 200px;
+    height: 48px;
+    background-color: rgb(169, 211, 169);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+#playButton {
+    width: 200px;
+    height: 48px;
+    background-color: rgb(191, 169, 211);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
